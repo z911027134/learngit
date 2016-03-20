@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: normal 100% Helvetica;
+    font-size: 62.5%;
+    font-family: "Hiragino Sans GB",Arial,sans-serif;
+}
+@media screen and (max-device-width:550px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-device-width:500px){
+    html{
+        font-size:50%;
+    }
+}
+@media screen and (max-device-width:350px)
+{
+    html{
+        font-size: 35%;
+    }
+}
+.contine{
+    width: 100%;
+    max-width: 64em;
+    margin: 0 auto;
+}
+.head{
+    padding-top: 14%;
+    background-color: #22292c;
+    position: relative;
+}
+.head a{
+    text-decoration: none;
+    font-size: 3em;
+    color: #fff;
+    display: block;
+    position: absolute;
+    left:8%;
+    top: 33%;
+
+}
+.head span{
+    font-size: 4em;
+    display: block;
+    color: #fff;
+    position: absolute;
+    left:43%;
+    top:25%;
+}
+.head #img1{
+    width: 3.4%;
+    position: absolute;
+    display: block;
+    top: 33%;
+    left:3%;
+
+}
+.head #img2{
+    width: 5.9%;
+    position: absolute;
+    display: block;
+    top: 45%;
+    right:3%;
+
+}
+.main{
+    padding-top: 158%;
+    background-color: #68cdd5;
+    position: relative;
+}
+.main #back{
+    width: 8.59%;
+    position: absolute;
+    display: block;
+    left:7%;
+    top:2%;
+}
+.main #log{
+    width: 28.6%;
+    position: absolute;
+    display: block;
+    left:30%;
+    top: 16%;
+}
+.main #imgl{
+    width: 13.1%;
+    position: absolute;
+    display: block;
+    left:21.9%;
+    bottom: 25%;
+}
+.main #imgr{
+    width: 13.1%;
+    position: absolute;
+    display: block;
+    right:21.9%;
+    bottom: 25%;
+}
+
+.main p{
+    width: 72%;
+    color: #ffffff;
+    font-size: 3em;
+    position: absolute;
+    left: 16%;
+    top: 25%;
+    line-height: 2em;
+}
+.main #sp1{
+    color: #ffffff;
+    font-size: 2.5em;
+    display: block;
+    position: absolute;
+    left: 19%;
+    bottom: 20%;
+}
+.main #sp2{
+     color: #ffffff;
+     font-size: 2.5em;
+     display: block;
+     position: absolute;
+     right: 19%;
+     bottom: 20%;
+ }
