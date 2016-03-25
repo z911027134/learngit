@@ -1,0 +1,75 @@
+.warp{
+    width: 100%;
+    background-color: #eff0f4;
+    margin: 0 auto;
+}
+.header{
+    overflow: hidden;
+    background-color: #5fc0cd;
+    text-align: center;
+}
+.header a{
+    text-decoration: none;
+    color:white;
+    font-size: 3.2em;
+    margin-top:4%;
+}
+.header .back{
+    margin-left: 4.15%;
+    float: left;
+}
+.header .res{
+    float: right;
+    margin-right: 4.15%;
+}
+.header span{
+    font-size:3.6em;
+    display: inline-block;
+    color: white;
+    margin: 4% 0;
+}
+.contenter{
+    position: relative;
+    width: 100%;
+}
+.contenter ul{
+
+}
+.contenter ul li{
+    margin: 2.5% 0;
+    padding: 3% 0;
+    background-color: white;
+    overflow: hidden;
+}
+.contenter ul li input{
+    float: right;
+    border-style: none;
+    vertical-align: middle;
+    padding: 3.5% 0 ;
+    width: 85%;
+    border-left: 2px solid #b9b7b9;
+}
+.icon{
+    position: absolute;
+    padding:2% 6.25%;
+}
+.contenter button{
+    width: 100%;
+    font-size: 3.6em;
+    background-color: #5fc0cd;
+    text-align: center;
+    color: white;
+    letter-spacing: 1.3rem;
+    margin-top: 10%;
+    padding: 5% 0;
+}
+.lose{
+    padding: 5% 0;
+}
+.lose a{
+    text-decoration: none;
+    margin-left: 75.5%;
+    font-size: 3.2em;
+    color: #5fc0cd;
+    overflow: hidden;
+}
