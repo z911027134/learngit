@@ -1,0 +1,115 @@
+.warp {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 720px;
+}
+.header {
+    background-color: #5fc0cd;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.header img {
+    position: absolute;
+    top: 32%;
+    left:  4.15%;
+    width: 2.78%;
+}
+.header span {
+    font-size: 3.6em;
+    display: inline-block;
+    color: white;
+    padding: 3.33% 0;
+    letter-spacing: 0.5rem;
+}
+.content {
+    width: 100%;
+}
+.content .star{
+    background-size: cover;
+    background-image:url(../images/icon-background.png);
+    color: white;
+    padding:16% 0;
+    position: relative;
+}
+.content .star .avater{
+    position: absolute;
+    width: 20.83%;
+    top:20%;
+    left: 5%;
+    border-radius: 50%;
+}
+.content .star .name{
+    font-size: 3.6rem;
+    position: absolute;
+    top: 25%;
+    left:30%;
+}
+.content .star .adress{
+    font-size: 2.4rem;
+    position: absolute;
+    top: 50%;
+    left:30%;
+
+}
+.content .sub{
+    padding: 5% 0;
+    font-size: 3.6rem;
+}
+.content .sub p{
+    margin: 0 3%;
+    padding: 0 3%;
+    border-left: 3px solid #5fc0cd;
+}
+.content .list{
+    font-size: 3.2rem;
+    margin: 0 auto;
+    max-width: 720px;
+}
+.content .list ul{
+    border-top: 1px solid #0033CC;
+    border-bottom: 1px solid #0033CC;
+    padding-left: 5%;
+}
+.content .list  ul li{
+    border-bottom: 1px solid #000000;
+    padding: 5% 0;
+}
+.content .list  .a{
+    font-size: 3.6rem;
+    color: #999;
+    padding:0 3%;
+    border-right:1px solid #000000;
+    display: inline;
+}
+.content .list  .a span{
+    color: #000000;
+}
+.content .list .spe{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+}
+.content .list .red{
+    color: red;
+}
+.content .btn{
+    padding: 14% 5% 5% 5%;
+}
+.btn button{
+    font-family: 楷体;
+    font-size: 3.4rem;
+    border: 1px solid #5fc0cd;
+    border-radius: 5%;
+    padding: 3% 0;
+    width:45%
+}
+.btnl{
+    float: left;
+    background-color: white;
+}
+.btnr{
+    float: right;
+    background-color: #5fc0cd;
+}
